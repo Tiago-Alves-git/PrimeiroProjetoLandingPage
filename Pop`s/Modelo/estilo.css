@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+
+@font-face {
+    font-family: SeoulHangang M;
+    src: url('SeoulHangang M.ttf') format('truetype');
+}
+    #text-element {
+        font-family: 'Seoul Hangang M';
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+   
+    font-size: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255, 0, 0, 0.35) 59.9%, rgba(0, 0, 0, 0.49) 100%);
+
+}
+
+.Cabeçalho{
+    
+   
+    background: #575252;
+    mix-blend-mode: screen;
+    border-radius: 27px;
+}
+
+
+
+.Cabeçalho-LOGO{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-self: flex-start;
+}
+.Menu{
+    width: 1440px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+.Topo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.Topo-Item{
+    color: rgb(205, 75, 75);
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 15px;
+}
+.Menu-Item{
+    
+    font-family: 'Saira SemiCondensed';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 39px;
+}
+
+.Conteudo{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+
+    border-top: 10px solid #A42E2E;
+    padding-top: 40px;
+    margin-bottom: 36px;
+
+
+}
+
+
+.Conteudo-de-fotos{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 35px;
+    padding: 150px 0px 350px 0px;
+}
+.Conteudo-FotoCardapio{
+  
+    border-radius: 59px;
+    
+}
+.Conteudo-Corpo-Secundario{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+}
+.Rodape-Logo-capa{
+    display: block;
+    margin: 0 auto;
+    background: url('POPS\ CAPA.png');
+    mix-blend-mode: difference;
+    border-radius: 38px;
+}
+
+
+
+
+

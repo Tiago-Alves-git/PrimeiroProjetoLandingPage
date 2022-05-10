@@ -1,0 +1,25 @@
+body{
+background: rgba(73, 73, 194, 0.87);
+font: normal 14pt Times;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+section{
+background: rgb(214, 214, 214);
+border-radius: 5px;
+padding: 15pt;
+width: 500px;
+margin: auto;
+box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: inherit;
+
+}
